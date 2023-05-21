@@ -22,6 +22,10 @@ In order to get a head start with Inkplate (any), follow these steps:
 
 There are many examples in the library that you demonstrate how to use any of the Inkplate functionality. Use Basic folder to get familiar with principles of using the Inkplate, such as modes (BW and Gray), how to write graphics and text or just basic capabilites such as touchscreen or front lighting (if your Inkplate supports it). In Advanced folder, you'll learn how to make HTTP/HTTPS requests, utilise low power, use touchpads or SD card, read RTC, etc. Finally, get easily started on some projects. Some of the projects are Google calendar, Weather Station, Image Frame, Crypto Currency Tracker and more. Examples and projects are added regularly by us or from community contributions. There is also a diagnostics folder with all tools for more advanced users (such as VCOM programming, waveform selection, etc).
 
+### setting up Inkplate 6COLOR in Platformio
+
+
+
 ### Documentation
 
 Find Inkplate documentation [here](https://inkplate.readthedocs.io/en/latest/arduino.html). 

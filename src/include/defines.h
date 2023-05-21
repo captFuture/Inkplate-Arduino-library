@@ -23,17 +23,17 @@
 
 #if (defined(ARDUINO_ESP32_DEV) || defined(ARDUINO_INKPLATE6V2))
 #include "../boards/Inkplate6.h"
-#elif ARDUINO_INKPLATE5
+#elif (defined(ARDUINO_INKPLATE5))
 #include "../boards/Inkplate5.h"
 #elif (defined(ARDUINO_INKPLATE10) || defined(ARDUINO_INKPLATE10V2))
 #include "../boards/Inkplate10.h"
 #elif (defined(ARDUINO_INKPLATE6PLUS) || defined(ARDUINO_INKPLATE6PLUSV2))
 #include "../boards/Inkplate6plus.h"
-#elif ARDUINO_INKPLATECOLOR
+#elif (defined(ARDUINO_INKPLATECOLOR))
 #include "../boards/Inkplate6Color.h"
-#elif ARDUINO_INKPLATE2
+#elif (defined(ARDUINO_INKPLATE2))
 #include "../boards/Inkplate2.h"
-#elif ARDUINO_INKPLATE4
+#elif (defined(ARDUINO_INKPLATE4))
 #include "../boards/Inkplate4.h"
 #endif
 
